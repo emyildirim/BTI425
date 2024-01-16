@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(182, 182, 182);
+            font-family: monospace ;
+            font-size: large;
+        }
+
+        table{
+            margin: auto;
+        }
+
+        td, th{
+            padding: 1.3rem;
+            border: 1px solid black;
+        }
+
+        h1, p{
+            text-align: center;
+        }
+    </style>
+    <h1>API Documentation</h1>
+    <p>This api returns and does operations for a movie database.</p>
+    
+    <table>
+        <tr>
+            <th><strong>Method</strong></th>
+            <th><strong>Endpoint</strong></th>
+            <th><strong>Description</strong></th>
+        </tr>
+        <tr>
+            <td>POST</th>
+            <td>/api/movies/add</td>
+            <td>Adds the new movie from the body of the request.</th>
+        </tr>
+        <tr>
+            <td>GET</th>
+            <td>/api/movies/<strong>:page/:perPage/:title?</strong></td>
+            <td>Returns all the movies for a specific page and optionally filtered by the title.</th>
+        </tr>
+        <tr>
+            <td>GET</th>
+            <td>/api/movies/<strong>:id</strong></td>
+            <td>Returns the movie for the specified id parameter.</th>
+        </tr>
+        <tr>
+            <td>PUT</th>
+            <td>/api/movies/<strong>:id</strong></td>
+            <td>Updates the movie by id using the body of the request.</th>
+        </tr>
+        <tr>
+            <td>DELETE</th>
+            <td>/api/movies/<strong>:id</strong></td>
+            <td>Deletes the movie document from the collection by id.</th>
+        </tr>
+    </table>
+    
+</body>
+</html>
