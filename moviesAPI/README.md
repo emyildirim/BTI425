@@ -35,14 +35,6 @@ This project is a Node.js web API that provides connection for the Movie Databas
 
 + [Nodemon](https://www.npmjs.com/package/nodemon) used for automating and restarting the live server. (Optional)
 
-  
-  
-  
-
-## Endpoints
-
-  
-
 
   
 
