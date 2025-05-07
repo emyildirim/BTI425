@@ -3,6 +3,7 @@
 *Coursework Portfolio – Winter 2024*
 
 > A collection of my assignments & APIs that demonstrate full-stack JavaScript skills: modern **React** front-ends, **Node/Express** services, secure REST APIs, and cloud deployment.
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/5496424e-6701-4b3c-8d60-c00b2f2b0718" />
 
 
 ## Repository Map
